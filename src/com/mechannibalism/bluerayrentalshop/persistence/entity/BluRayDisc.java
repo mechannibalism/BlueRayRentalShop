@@ -1,4 +1,4 @@
-package com.mechannibalism.bluerayrentalshop.persistence;
+package com.mechannibalism.bluerayrentalshop.persistence.entity;
 
 public class BluRayDisc {
 

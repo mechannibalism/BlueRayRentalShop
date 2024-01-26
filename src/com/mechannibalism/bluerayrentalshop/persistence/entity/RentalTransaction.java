@@ -1,4 +1,4 @@
-package com.mechannibalism.bluerayrentalshop.persistence;
+package com.mechannibalism.bluerayrentalshop.persistence.entity;
 
 import java.time.LocalDate;
 
