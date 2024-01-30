@@ -74,31 +74,9 @@ public class Customer {
     }
 
     // Метод для оренди диску
-    public void rentDisc(BluRayDisc disc) {
-        if (disc.isAvailable()) {
-            rentedDiscs.add(disc);
-            disc.rent(this);
-            System.out.println(
-                "Диск '" + disc.getMovie().getTitle() + "' орендовано користувачем "
-                    + getFullName());
-        } else {
-            System.out.println("Диск '" + disc.getMovie().getTitle() + "' вже взятий в прокат.");
-        }
-    }
 
     // Метод для повернення диску
-    public void returnDisc(BluRayDisc disc) {
-        if (rentedDiscs.contains(disc)) {
-            rentedDiscs.remove(disc);
-            disc.returnDisc();
-            System.out.println(
-                "Диск '" + disc.getMovie().getTitle() + "' повернуто користувачем "
-                    + getFullName());
-        } else {
-            System.out.println(
-                "Диск '" + disc.getMovie().getTitle() + "' не був орендований цим користувачем.");
-        }
-    }
+
 
     // Метод для отримання повного імені
     public String getFullName() {

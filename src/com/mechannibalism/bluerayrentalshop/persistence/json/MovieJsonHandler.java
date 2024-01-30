@@ -1,12 +1,14 @@
 package com.mechannibalism.bluerayrentalshop.persistence.json;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.mechannibalism.bluerayrentalshop.persistence.entity.BluRayDisc;
 import com.mechannibalism.bluerayrentalshop.persistence.entity.Movie;
 import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.lang.reflect.Type;
 import java.util.List;
 
 public class MovieJsonHandler {
@@ -14,22 +16,18 @@ public class MovieJsonHandler {
     private static final String DISCS_JSON_FILE_PATH = "src/resources/blu_ray_discs.json";
     private static final String MOVIES_JSON_FILE_PATH = "src/resources/movies.json";
 
+
     // Збереження дисків у JSON файл
     public static void saveDiscsToJsonFile(List<BluRayDisc> discs) {
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
+            Gson gson = new Gson();
+            String json = gson.toJson(discs);
 
-            // Перевірка і створення каталогу та файлу, якщо вони не існують
-            File file = new File(DISCS_JSON_FILE_PATH);
-            File directory = file.getParentFile();
-            if (!directory.exists()) {
-                directory.mkdirs();
-            }
-            if (!file.exists()) {
-                file.createNewFile();
-            }
+            // Запис у файл
+            FileWriter writer = new FileWriter(DISCS_JSON_FILE_PATH);
+            writer.write(json);
+            writer.close();
 
-            objectMapper.writeValue(file, discs);
             System.out.println("Диски збережено у файл " + DISCS_JSON_FILE_PATH);
         } catch (IOException e) {
             e.printStackTrace();
@@ -41,9 +39,14 @@ public class MovieJsonHandler {
         try {
             File file = new File(DISCS_JSON_FILE_PATH);
             if (file.exists()) {
-                ObjectMapper objectMapper = new ObjectMapper();
-                return objectMapper.readValue(file, new TypeReference<List<BluRayDisc>>() {
-                });
+                Gson gson = new Gson();
+                FileReader reader = new FileReader(file);
+
+                // Визначення типу даних для десеріалізації
+                Type type = new TypeToken<List<BluRayDisc>>() {
+                }.getType();
+
+                return gson.fromJson(reader, type);
             } else {
                 System.out.println("Файл " + DISCS_JSON_FILE_PATH + " не існує.");
             }
@@ -56,15 +59,14 @@ public class MovieJsonHandler {
     // Збереження фільмів у JSON файл
     public static void saveMoviesToJsonFile(List<Movie> movies) {
         try {
-            ObjectMapper objectMapper = new ObjectMapper();
+            Gson gson = new Gson();
+            String json = gson.toJson(movies);
 
-            // Перевірка і створення файлу, якщо він не існує
-            File file = new File(MOVIES_JSON_FILE_PATH);
-            if (!file.exists()) {
-                file.createNewFile();
-            }
+            // Запис у файл
+            FileWriter writer = new FileWriter(MOVIES_JSON_FILE_PATH);
+            writer.write(json);
+            writer.close();
 
-            objectMapper.writeValue(file, movies);
             System.out.println("Фільми збережено у файл " + MOVIES_JSON_FILE_PATH);
         } catch (IOException e) {
             e.printStackTrace();
@@ -76,16 +78,20 @@ public class MovieJsonHandler {
         try {
             File file = new File(MOVIES_JSON_FILE_PATH);
             if (file.exists()) {
-                ObjectMapper objectMapper = new ObjectMapper();
-                List<Movie> movies = objectMapper.readValue(file, new TypeReference<List<Movie>>() {
-                });
-                return movies;
+                Gson gson = new Gson();
+                FileReader reader = new FileReader(file);
+
+                // Визначення типу даних для десеріалізації
+                Type type = new TypeToken<List<Movie>>() {
+                }.getType();
+
+                return gson.fromJson(reader, type);
             } else {
                 System.out.println("Файл " + MOVIES_JSON_FILE_PATH + " не існує.");
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return new ArrayList<>(); // Повертаємо пустий список, щоб уникнути NullPointerException
+        return null;
     }
 }

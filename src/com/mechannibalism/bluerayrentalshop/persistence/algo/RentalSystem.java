@@ -1,7 +1,9 @@
 package com.mechannibalism.bluerayrentalshop.persistence.algo;
 
+import com.github.javafaker.Faker;
 import com.mechannibalism.bluerayrentalshop.persistence.entity.BluRayDisc;
 import com.mechannibalism.bluerayrentalshop.persistence.entity.Movie;
+import com.mechannibalism.bluerayrentalshop.persistence.json.DiscJsonHandler;
 import com.mechannibalism.bluerayrentalshop.persistence.json.MovieJsonHandler;
 import java.util.List;
 import java.util.Scanner;
@@ -14,14 +16,17 @@ public class RentalSystem {
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_BLUE = "\u001B[34m";
 
+    private static final MovieJsonHandler movieJsonHandler = new MovieJsonHandler();
+    private static final Faker faker = new Faker();
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int choice;
 
         do {
             printMenu();
-            System.out.print(ANSI_BLUE + "▀▀▀▀▀▀▀▀▀▀▀" + ANSI_RESET);
-            System.out.print(ANSI_YELLOW + "\n▀▀▀▀▀▀▀▀▀▀▀▀ " + ANSI_RESET);
+            System.out.print(ANSI_BLUE + "Виберіть пункт:" + ANSI_RESET);
+
             choice = scanner.nextInt();
 
             switch (choice) {
@@ -44,7 +49,7 @@ public class RentalSystem {
                     System.out.println("Невірний вибір. Спробуйте ще раз.");
             }
 
-        } while (choice != 4);
+        } while (choice != 5);
     }
 
     private static void printMenu() {
@@ -71,29 +76,25 @@ public class RentalSystem {
         System.out.println("Повернення диска");
     }
 
-    private static void addDisc() {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введіть ID диска: ");
-        String discId = scanner.nextLine();
+    public static void addDisc() {
+        BluRayDisc disc = generateDisc();
+        DiscJsonHandler.writeDiscToJson(disc);
+    }
 
-        System.out.print("Введіть ID фільму: ");
-        String movieId = scanner.nextLine();
+    private static BluRayDisc generateDisc() {
+        int discId = faker.number().randomDigitNotZero();
+        String movieTitle = faker.book().title();
+        String director = faker.name().fullName();
+        boolean availableForRent = true; // За замовчуванням диск доступний для оренди
 
-        // Взяти фільм по ID або створити новий фільм за потреби
-        Movie movie = findOrCreateMovie(movieId);
+        BluRayDisc disc = new BluRayDisc(discId, movieTitle, director, availableForRent);
 
-        System.out.print("Введіть жанр: ");
-        String genre = scanner.nextLine();
+        // Виводимо інформацію про створений диск
+        System.out.println(disc);
+        System.out.println("----------------------------------");
 
-        System.out.print("Доступний для оренди (true/false): ");
-        boolean isAvailable = scanner.nextBoolean();
-
-        // Створити об'єкт BluRayDisc та зберегти в JSON файл
-        BluRayDisc disc = new BluRayDisc(discId, isAvailable, movie, genre);
-        saveDisc(disc);
-
-        System.out.println("Інформацію про диск додано успішно!");
+        return disc;
     }
 
     private static Movie findOrCreateMovie(String movieId) {

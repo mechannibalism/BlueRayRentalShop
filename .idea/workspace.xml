@@ -5,14 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6bb8ce-af2c-44fb-b850-eb65da4faa5f" name="Changes" comment="0.1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/RentalSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/MovieJsonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07e66ffc36fda2bf1c36fd15fa1d60401db7bd6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41ceb065d654d49d5802c2ad9b92a1c6502f80ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/685e61267c09bcb1118bad99893c6279ee0c4326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76a08981a06c82148d1f293e2e0a19416754a972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84524ef785862788121ff30043cdc9e99a3e6a55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a33bba09a9a0e9649c58d03fb489683c4c372f36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb19cd34354338a97ee7c2bae9d24898aec4f037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e323a7f1958d8f05fa091238fff3061ce471699a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/07e66ffc36fda2bf1c36fd15fa1d60401db7bd6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/1/41ceb065d654d49d5802c2ad9b92a1c6502f80ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/8/685e61267c09bcb1118bad99893c6279ee0c4326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/6/76a08981a06c82148d1f293e2e0a19416754a972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/4/84524ef785862788121ff30043cdc9e99a3e6a55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/3/a33bba09a9a0e9649c58d03fb489683c4c372f36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/b/bb19cd34354338a97ee7c2bae9d24898aec4f037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e323a7f1958d8f05fa091238fff3061ce471699a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/DiscJsonHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_annotations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/fasterxml_jackson_core_databind.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/BluRayDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/BluRayDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/RentalTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/RentalTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueRayRentalShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlueRayRentalShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/RentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/RentalSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/BluRayDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/BluRayDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/MovieJsonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/MovieJsonHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package.json" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +93,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
@@ -93,6 +120,9 @@
       <workItem from="1706219447004" duration="1463000" />
       <workItem from="1706258418105" duration="1426000" />
       <workItem from="1706259873959" duration="606000" />
+      <workItem from="1706282150181" duration="244000" />
+      <workItem from="1706362688209" duration="4219000" />
+      <workItem from="1706621774090" duration="2188000" />
     </task>
     <task id="LOCAL-00001" summary="0.1">
       <option name="closed" value="true" />
@@ -118,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706100671372</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.1">
+      <option name="closed" value="true" />
+      <created>1706282337903</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706282337903</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

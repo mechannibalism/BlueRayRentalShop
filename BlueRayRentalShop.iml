@@ -7,10 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="fasterxml.jackson.core.annotations" level="project" />
-    <orderEntry type="library" name="fasterxml.jackson.core" level="project" />
-    <orderEntry type="library" name="fasterxml.jackson.core.databind" level="project" />
     <orderEntry type="library" name="github.javafaker" level="project" />
+    <orderEntry type="library" name="google.code.gson" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="56247579-34c0-4e75-af97-13359e868b05" />
