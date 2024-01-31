@@ -1,0 +1,26 @@
+[
+  {
+    "id": 6,
+    "title": "The Widening Gyre",
+    "director": "Lance Cole",
+    "availableForRent": true
+  },
+  {
+    "id": 8,
+    "title": "Consider Phlebas",
+    "director": "Mrs. Kelly Herzog",
+    "availableForRent": true
+  },
+  {
+    "id": 5,
+    "title": "The Heart Is a Lonely Hunter",
+    "director": "Marylou Feest MD",
+    "availableForRent": true
+  },
+  {
+    "id": 6,
+    "title": "To Say Nothing of the Dog",
+    "director": "Mr. Isobel Bernier",
+    "availableForRent": true
+  }
+]
