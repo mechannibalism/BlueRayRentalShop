@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class BluRayDisc {
 
     @SerializedName("id")
-    private int discId;
+    public int discId;
 
     @SerializedName("title")
     private String movieTitle;
@@ -34,5 +34,5 @@ public class BluRayDisc {
             ", availableForRent=" + availableForRent +
             '}';
     }
-    
+
 }

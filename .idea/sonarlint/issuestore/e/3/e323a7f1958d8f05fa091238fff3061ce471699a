@@ -1,11 +1,13 @@
 
+x
+java:S1104"VMake lastDiscId a static final constant or non-public and provide accessors if needed.(Ù£˜›úÿÿÿÿ8ØôŠÖ1
+R
+java:S1444"0Make this "public static lastDiscId" field final(Ù£˜›úÿÿÿÿ8ÙôŠÖ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¡¸ÎÆ8·õŠÖ1
 O
-java:S1135"2Complete the task associated to this TODO comment.(Æß˜Š8Ó¸‚ÕÕ1
+java:S1135"2Complete the task associated to this TODO comment.(Æß˜Š8¸õŠÖ1
 M
-java:S2440"0Remove this instantiation of "MovieJsonHandler".(…œØ8Ó¸‚ÕÕ1
+java:S2440"0Remove this instantiation of "MovieJsonHandler".(…œØ8ºõŠÖ1
 Q
-java:S1068"4Remove this unused "movieJsonHandler" private field.(…œØ8ò¸‚ÕÕ1
-S
-java:S1144d"6Remove this unused private "findOrCreateMovie" method.(õÂê—8ò¸‚ÕÕ1
-P
-java:S1144"-Remove this unused private "saveDisc" method.(Ïˆ®Ãùÿÿÿÿ8ò¸‚ÕÕ1
+java:S1068"4Remove this unused "movieJsonHandler" private field.(…œØ8ĞõŠÖ1

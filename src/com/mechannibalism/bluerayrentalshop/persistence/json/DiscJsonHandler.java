@@ -17,9 +17,15 @@ public class DiscJsonHandler {
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
     private static final String JSON_FILE_PATH = "src/resources/discs.json";
 
+
     public static void writeDiscToJson(BluRayDisc disc) {
         // Зчитуємо поточний вміст файлу
         List<BluRayDisc> discs = readDiscsFromJson();
+
+        // Перевіряємо, чи список не є null
+        if (discs == null) {
+            discs = new ArrayList<>();
+        }
 
         // Додаємо новий диск до списку
         discs.add(disc);
@@ -33,6 +39,11 @@ public class DiscJsonHandler {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+
+    public static List<BluRayDisc> readAllDiscs() {
+        return readDiscsFromJson();
     }
 
     private static List<BluRayDisc> readDiscsFromJson() {

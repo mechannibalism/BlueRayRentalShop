@@ -1,87 +1,42 @@
 package com.mechannibalism.bluerayrentalshop.persistence.entity;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 public class Customer {
 
-    private final int customerId;
-    private final List<BluRayDisc> rentedDiscs = new ArrayList<>();
-    private String firstName;
-    private String lastName;
-    private String username;  // Логін
-    private String password;  // Пароль
-    private String phoneNumber;
+    private final String username;
+    private final String passwordHash; // Замінено на passwordHash
 
-    // Конструктор
-    public Customer(int customerId, String firstName, String lastName, String username,
-        String password, String phoneNumber) {
-        this.customerId = customerId;
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Customer(String username, String password) {
         this.username = username;
-        this.password = password;
-        this.phoneNumber = phoneNumber;
-    }
-
-    // Геттери та сеттери
-    public int getCustomerId() {
-        return customerId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+        this.passwordHash = hashPassword(password);
     }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public boolean authenticate(String enteredPassword) {
+        String enteredPasswordHash = hashPassword(enteredPassword);
+        return enteredPasswordHash.equals(passwordHash);
     }
 
-    public String getPassword() {
-        return password;
-    }
+    private String hashPassword(String password) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            byte[] hashedBytes = md.digest(password.getBytes());
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+            // Перетворюємо байтовий масив у рядок шістнадцяткових символів
+            StringBuilder sb = new StringBuilder();
+            for (byte b : hashedBytes) {
+                sb.append(String.format("%02x", b));
+            }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public List<BluRayDisc> getRentedDiscs() {
-        return rentedDiscs;
-    }
-
-    // Метод для оренди диску
-
-    // Метод для повернення диску
-
-
-    // Метод для отримання повного імені
-    public String getFullName() {
-        return firstName + " " + lastName;
+            return sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
-
-
