@@ -4,7 +4,6 @@ package com.mechannibalism.bluerayrentalshop.persistence.algo;
 import com.github.javafaker.Faker;
 import com.mechannibalism.bluerayrentalshop.persistence.entity.BluRayDisc;
 import com.mechannibalism.bluerayrentalshop.persistence.json.DiscJsonHandler;
-import com.mechannibalism.bluerayrentalshop.persistence.json.MovieJsonHandler;
 import java.util.List;
 import java.util.Scanner;
 import resources.Colors;

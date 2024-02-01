@@ -4,7 +4,6 @@ import static com.mechannibalism.bluerayrentalshop.persistence.algo.AuthValidify
 import static com.mechannibalism.bluerayrentalshop.persistence.algo.AuthValidify.isValidUsername;
 import static com.mechannibalism.bluerayrentalshop.persistence.algo.RentalSystem.mainMenu;
 import static com.mechannibalism.bluerayrentalshop.persistence.json.auth.UserHandler.customers;
-import static com.mechannibalism.bluerayrentalshop.persistence.json.auth.UserHandler.findCustomerByUsername;
 import static com.mechannibalism.bluerayrentalshop.persistence.json.auth.UserHandler.saveCustomersToJson;
 
 import com.mechannibalism.bluerayrentalshop.persistence.entity.Customer;
@@ -55,7 +54,7 @@ public class AuthSystem {
         System.out.print("Enter your password: ");
         String password = scanner.nextLine();
 
-        Customer foundCustomer = findCustomerByUsername(username);
+        Customer foundCustomer = findCustoяmerByUsername(username);
 
         if (foundCustomer != null && foundCustomer.authenticate(password)) {
             System.out.println(Colors.GREEN);

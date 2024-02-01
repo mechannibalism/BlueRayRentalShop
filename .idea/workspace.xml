@@ -1,27 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BlueRayRentalShop:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6bb8ce-af2c-44fb-b850-eb65da4faa5f" name="Changes" comment="0.1">
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthValidify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/ErrorHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/auth/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07e66ffc36fda2bf1c36fd15fa1d60401db7bd6a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/07e66ffc36fda2bf1c36fd15fa1d60401db7bd6a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76a08981a06c82148d1f293e2e0a19416754a972" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76a08981a06c82148d1f293e2e0a19416754a972" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e323a7f1958d8f05fa091238fff3061ce471699a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e323a7f1958d8f05fa091238fff3061ce471699a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BlueRayRentalShop_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/065bae9ac0939609d5cc20fb75ad6a860bcc0f3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c64c94b0013d0734ce72d617f0f175604fc7330" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21a664c72330f71e384feba6dbc6ff94ecb9c164" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33f3084b5a929572b9bb33e8c3174e8278ec1215" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/436ed25d571c973e3da4885edd7eea064574255a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44aec5b04ef18d90643ea17f962432f3cb19ca11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5405df7e011715dbcf42c9e63dad8657cda75e9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55181b5aac20cb86deb701b1aa2281bb444f5297" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fc4a319130a4de810292a39c29080d8fafcacef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ef3a5963625a16d3697a173e2e14237e87f0b5f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/988c42f25dbac7cebb0140917ef1fc56cd2e21b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9db44714da783e82392884aeea0d83f0125570ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abf80394c3324297d2550bd36ac2a2291b137ead" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b036593f987f1e1917543014a66571c2002618b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b31df9b2b9cdd37f5ca3f5303feabf564eeaaf4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4353940885ed2d6b2fbbe2b09446433f7a87ea0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9a3cf24e48e943560b97c62600586fba3ad4f68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bcffd029d2b21e2700d831167efff8c9fc5e52d6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf73322f399da9de72f698e9b6173aacd491487b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2029981dee1808bee4216f126d75e90f16d5113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8b02593becfbb74a38661482ccbf277b8dfa520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb02c9db98cb80f0204ab9602bbf41ee0487cb55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e45eab9045e566eb6748d870e60512e3a7d5beab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9f08b089149459e828529a59b1fd1fa404d2c81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efb4aefcf68ae8904277886c4ce777f114b290c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f714cb6890e685703e377dd068c7b66a4ae65784" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/065bae9ac0939609d5cc20fb75ad6a860bcc0f3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/c/1c64c94b0013d0734ce72d617f0f175604fc7330" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/1/21a664c72330f71e384feba6dbc6ff94ecb9c164" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/33f3084b5a929572b9bb33e8c3174e8278ec1215" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/3/436ed25d571c973e3da4885edd7eea064574255a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/44aec5b04ef18d90643ea17f962432f3cb19ca11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/4/5405df7e011715dbcf42c9e63dad8657cda75e9f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/5/55181b5aac20cb86deb701b1aa2281bb444f5297" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7fc4a319130a4de810292a39c29080d8fafcacef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ef3a5963625a16d3697a173e2e14237e87f0b5f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/8/988c42f25dbac7cebb0140917ef1fc56cd2e21b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/d/9db44714da783e82392884aeea0d83f0125570ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/b/abf80394c3324297d2550bd36ac2a2291b137ead" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b036593f987f1e1917543014a66571c2002618b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/3/b31df9b2b9cdd37f5ca3f5303feabf564eeaaf4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4353940885ed2d6b2fbbe2b09446433f7a87ea0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b9a3cf24e48e943560b97c62600586fba3ad4f68" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/c/bcffd029d2b21e2700d831167efff8c9fc5e52d6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bf73322f399da9de72f698e9b6173aacd491487b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c2029981dee1808bee4216f126d75e90f16d5113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/8/c8b02593becfbb74a38661482ccbf277b8dfa520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cb02c9db98cb80f0204ab9602bbf41ee0487cb55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e45eab9045e566eb6748d870e60512e3a7d5beab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/9/e9f08b089149459e828529a59b1fd1fa404d2c81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/d/ed67eb178d523a4b3f117dcbe0eda5196367ceec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/efb4aefcf68ae8904277886c4ce777f114b290c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f714cb6890e685703e377dd068c7b66a4ae65784" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/setup/JsonInitialSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueRayRentalShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BlueRayRentalShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/AuthSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/RentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/algo/RentalSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/BluRayDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/BluRayDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/DiscJsonHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/DiscJsonHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/discs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/discs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/MovieJsonHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/auth/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mechannibalism/bluerayrentalshop/persistence/json/auth/UserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/discs.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,33 +118,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/987/Desktop/Java-Mock-Movie-Rental-System-master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/987/Desktop/Java-Mock-Movie-Rental-System-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mechannibalism.bluerayrentalshop.persistence.entity" />
@@ -107,7 +169,7 @@
       <workItem from="1706621774090" duration="2188000" />
       <workItem from="1706720133646" duration="3672000" />
       <workItem from="1706727419256" duration="4584000" />
-      <workItem from="1706791999356" duration="5127000" />
+      <workItem from="1706791999356" duration="10838000" />
     </task>
     <task id="LOCAL-00001" summary="0.1">
       <option name="closed" value="true" />
@@ -141,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706282337903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.1">
+      <option name="closed" value="true" />
+      <created>1706804193567</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706804193567</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

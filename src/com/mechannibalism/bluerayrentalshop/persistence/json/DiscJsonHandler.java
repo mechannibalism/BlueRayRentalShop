@@ -15,7 +15,7 @@ import java.util.List;
 public class DiscJsonHandler {
 
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
-    private static final String JSON_FILE_PATH = "src/resources/discs.json";
+    private static final String JSON_FILE_PATH = "resources/discs.json";
 
 
     public static void writeDiscToJson(BluRayDisc disc) {

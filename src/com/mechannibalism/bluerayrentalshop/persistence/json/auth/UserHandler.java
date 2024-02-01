@@ -11,7 +11,7 @@ import java.util.List;
 
 public class UserHandler {
 
-    public static final String USERS_JSON_PATH = "src/resources/users.json";
+    public static final String USERS_JSON_PATH = "resources/users.json";
     public static final List<Customer> customers = new ArrayList<>();
     private static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
@@ -48,5 +48,6 @@ public class UserHandler {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 }

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="BlueRayRentalShop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BlueRayRentalShop_jar</output-path>
+    <root id="root">
+      <element id="archive" name="BlueRayRentalShop.jar">
+        <element id="module-output" name="BlueRayRentalShop" />
+      </element>
+      <element id="library" level="project" name="github.javafaker" />
+      <element id="library" level="project" name="google.code.gson" />
+    </root>
+  </artifact>
+</component>

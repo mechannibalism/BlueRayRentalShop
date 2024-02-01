@@ -3,15 +3,17 @@ package com.mechannibalism.bluerayrentalshop.persistence.algo;
 
 import static com.mechannibalism.bluerayrentalshop.persistence.algo.AuthSystem.login;
 import static com.mechannibalism.bluerayrentalshop.persistence.algo.AuthSystem.register;
+import static com.mechannibalism.bluerayrentalshop.persistence.json.setup.JsonInitialSetup.performInitialSetup;
 
 import java.util.Scanner;
 import resources.Colors;
 
 public class AuthMenu {
 
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        performInitialSetup();
         System.out.println(Colors.RED + "\n"
             + "██████╗ ██████╗            ███████╗ ██████╗ ██████╗        ██████╗ ███████╗███╗   ██╗████████╗\n"
             + "██╔══██╗██╔══██╗           ██╔════╝██╔═══██╗██╔══██╗       ██╔══██╗██╔════╝████╗  ██║╚══██╔══╝\n"

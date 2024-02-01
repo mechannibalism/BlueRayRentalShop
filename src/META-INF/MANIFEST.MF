@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: com.mechannibalism.bluerayrentalshop.persistence.algo.AuthMe
+ nu
+Class-Path: javafaker-1.0.2.jar commons-lang3-3.5.jar snakeyaml-1.23-and
+ roid.jar generex-1.0.2.jar automaton-1.11-8.jar gson-2.10.1.jar
+
